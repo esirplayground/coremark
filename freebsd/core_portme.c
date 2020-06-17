@@ -24,7 +24,6 @@ Original Author: Shay Gal-on
 #endif
 
 #if (MEM_METHOD == MEM_MALLOC)
-#include <malloc.h>
 /* Function: portable_malloc
         Provide malloc() functionality in a platform specific way.
 */
